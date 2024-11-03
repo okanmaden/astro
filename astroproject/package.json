@@ -1,0 +1,29 @@
+{
+  "name": "astroproject",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/react": "^3.6.2",
+    "@astrojs/svelte": "^5.7.2",
+    "@astrojs/vue": "^4.5.2",
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/material": "^6.1.6",
+    "astro": "^4.16.8",
+    "mui": "^0.0.1",
+    "vuetify": "^3.7.3"
+  },
+  "devDependencies": {
+    "@smui/textfield": "^7.0.0",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14"
+  }
+}

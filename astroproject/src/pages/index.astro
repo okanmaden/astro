@@ -1,0 +1,23 @@
+---
+// src/pages/index.astro
+import Form from '../components/Form.vue';
+
+---
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/src/styles/tailwind.css" />
+  </head>
+  <body class="flex flex-col items-center justify-center min-h-screen bg-gray-100">
+    <h1 class="text-3xl font-bold mb-8">Login Page</h1>
+    
+    <div class="bg-white shadow-md rounded p-8 max-w-md w-full">
+      <h2 class="text-xl mb-4">Login Form</h2>
+      <Form />
+    </div>
+  </body>
+</html>
